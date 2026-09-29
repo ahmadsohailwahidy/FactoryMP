@@ -70,7 +70,17 @@ public class Main {
         // rect2.display();
 
         Calculation calc = new Calculation();
-calc.factorial(5);
+// calc.factorial(5);
+
+        Account acc = new Account();
+
+        acc.insert(2442, "Ahmad Sohail", 15000);
+        acc.display();
+        acc.checkBalance();
+        acc.deposit(40000);
+        acc.checkBalance();
+        acc.whithdraw(15000);
+        acc.checkBalance();
 
 
         // Main m1 = new Main();
