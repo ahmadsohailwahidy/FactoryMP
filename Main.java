@@ -27,6 +27,8 @@ public class Main {
         // System.out.println(student.studentId);
         // System.out.println(student.studentName);
 
+         new Employee().insert(5, "Black Panther", 90000);
+
         // student1.insertRecord(6, "This is some name");
         // student.insertRecord(4, "Ahmad Asma");
         // student.displayInfo();
@@ -63,9 +65,13 @@ public class Main {
         rect1.insert(3, 6);
         rect2.insert(7, 14);
 
-        rect.display();
-        rect1.display();
-        rect2.display();
+        // rect.display();
+        // rect1.display();
+        // rect2.display();
+
+        Calculation calc = new Calculation();
+calc.factorial(5);
+
 
         // Main m1 = new Main();
         // System.out.println(m1.id + " " + m1.name);
