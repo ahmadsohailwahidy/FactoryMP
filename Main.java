@@ -23,10 +23,37 @@ public class Main {
         // System.out.println(student.studentId);
         // System.out.println(student.studentName);
 
-        student1.insertRecord(6, "This is some name");
-        student.insertRecord(4, "Ahmad Asma");
-        student.displayInfo();
-        student1.displayInfo();
+        // student1.insertRecord(6, "This is some name");
+        // student.insertRecord(4, "Ahmad Asma");
+        // student.displayInfo();
+        // student1.displayInfo();
+
+        Employee emp = new Employee();
+        Employee emp1 = new Employee();
+        Employee emp2 = new Employee();
+        Employee emp3 = new Employee();
+        emp3.insert(4, "Bob Brown", 80000);
+        emp2.insert(3, "Alice Johnson", 70000);
+        emp1.insert(2, "Jane Smith", 60000);
+        emp.insert(1, "John Doe", 50000);
+
+        emp.display();
+        System.out.println("-------------------");
+        System.out.println("-------------------");
+        System.out.println("-------------------");
+        System.out.println("-------------------");
+        emp1.display();
+        System.out.println("-------------------");
+        System.out.println("-------------------");
+        System.out.println("-------------------");
+        System.out.println("-------------------");
+        emp2.display();
+        System.out.println("-------------------");
+        System.out.println("-------------------");
+        System.out.println("-------------------");
+        System.out.println("-------------------");
+        emp3.display();
+
 
 
 
