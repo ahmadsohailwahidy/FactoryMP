@@ -11,6 +11,10 @@ public class Main {
         Student student = new Student();
         Student student1 = new Student();
 
+        Rectangle rect = new Rectangle();
+        Rectangle rect1 = new Rectangle();
+        Rectangle rect2 = new Rectangle();
+
 
         student1.studentId = 3;
         student1.studentName = "Jon Doe";
@@ -37,25 +41,31 @@ public class Main {
         emp1.insert(2, "Jane Smith", 60000);
         emp.insert(1, "John Doe", 50000);
 
-        emp.display();
-        System.out.println("-------------------");
-        System.out.println("-------------------");
-        System.out.println("-------------------");
-        System.out.println("-------------------");
-        emp1.display();
-        System.out.println("-------------------");
-        System.out.println("-------------------");
-        System.out.println("-------------------");
-        System.out.println("-------------------");
-        emp2.display();
-        System.out.println("-------------------");
-        System.out.println("-------------------");
-        System.out.println("-------------------");
-        System.out.println("-------------------");
-        emp3.display();
+        // emp.display();
+        // System.out.println("-------------------");
+        // System.out.println("-------------------");
+        // System.out.println("-------------------");
+        // System.out.println("-------------------");
+        // emp1.display();
+        // System.out.println("-------------------");
+        // System.out.println("-------------------");
+        // System.out.println("-------------------");
+        // System.out.println("-------------------");
+        // emp2.display();
+        // System.out.println("-------------------");
+        // System.out.println("-------------------");
+        // System.out.println("-------------------");
+        // System.out.println("-------------------");
+        // emp3.display();
 
 
+        rect.insert(5, 10);
+        rect1.insert(3, 6);
+        rect2.insert(7, 14);
 
+        rect.display();
+        rect1.display();
+        rect2.display();
 
         // Main m1 = new Main();
         // System.out.println(m1.id + " " + m1.name);
